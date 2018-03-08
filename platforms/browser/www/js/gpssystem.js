@@ -31,7 +31,7 @@ function writePosition(latitude,longitude) {
             if (this.readyState == 4 && this.status == 200) {
                 x.innerHTML = "Je passe ici";
             } else {
-				x.innerHTML = "Fonctionne pas";
+				x.innerHTML = "Fonctionne pas " + this.status;
 			}
         };
 	x.innerHTML = "Je passe ici 2";
