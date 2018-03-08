@@ -30,7 +30,9 @@ function writePosition(latitude,longitude) {
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 x.innerHTML = "Je passe ici";
-            }
+            } else {
+				x.innerHTML = "Fonctionne pas";
+			}
         };
 	x.innerHTML = "Je passe ici 2";
         xmlhttp.open("GET","https://mocfpg.dyndns.org/gps/gps.php?latitude="+latitude+"&longitude="+longitude,true);
