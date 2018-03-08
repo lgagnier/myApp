@@ -36,6 +36,9 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "org.dyndns.mocfpg.sample"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "org.dyndns.mocfpg.sample"
     }
   },
   "dependent_plugins": {
